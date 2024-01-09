@@ -24,6 +24,11 @@
   -webkit-text-size-adjust: 100%;
 }
 
+.tasks {
+  display: flex;
+  justify-content: space-between;
+}
+
 .gallery {
   list-style-type: none;
   padding: 24px 156px;
