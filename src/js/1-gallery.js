@@ -91,3 +91,17 @@ const galleryItems = images.map(({ preview, original, description }) => {
 
 fragment.append(...galleryItems);
 gallery.appendChild(fragment);
+
+const lightbox = new SimpleLightbox('.gallery a', {
+  captions: true,
+  captionsData: 'alt',
+  captionDelay: 250,
+  captionPosition: 'bottom',
+  history: false,
+  animationSpeed: 250,
+  close: true,
+});
+
+// var lightboxClose = new SimpleLightbox('.gallery a', {
+//   docClose,
+// });

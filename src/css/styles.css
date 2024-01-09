@@ -39,3 +39,37 @@
   width: 360px;
   height: 200px;
 }
+
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 15px;
+  margin-top: 70px;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input {
+  width: 200px;
+  padding: 8px 16px;
+  margin: 0;
+}
+
+textarea {
+  width: 200px;
+  padding: 8px 16px;
+  margin: 0;
+}
+
+button {
+  width: 200px;
+  padding: 8px 16px;
+  text-align: center;
+}
